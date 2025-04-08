@@ -77,10 +77,13 @@ for (let i = 0; i < names.length; i++) {
 // Script 1 - Greeting multiple users
 const nameofStudent = ["Alice", "Bob", "Charlie"];
 greetUsers(nameofStudent);
+
 let sum1 = calculateSum(5, 10);
 console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+
 let multipleProduct = calculateProduct(5, 10);
 console.log(`The Multiplication of ${num1} and ${num2} is  ${multipleProduct}`);
+
 printNames(nameofStudent);
 function greetUsers(students) {
     
